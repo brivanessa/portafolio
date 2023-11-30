@@ -27,16 +27,14 @@ export const MainArticle = () => {
           </div>
          
         </div>
-        <div className=" pt-14 sm:pt-24  flex flex-col items-center w-full px-2  sm:px-20">
+        <div className=" pt-14 sm:pt-24  flex flex-col items-center w-full px-2 sm:px-20">
                 <h2 className="text-xl sm:text-2xl pb-2 sm:pb-3 text-primary">
                 ¿Qué hago?
                 </h2>
-                <p className="text-sm sm:text-base   text-center ">
-                  Desarrollo proyectos tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. 
+                <p className="text-sm sm:text-base  text-center text-tertiary ">
+                  Desarrollo <a href="/" className="text-secundary hover:underline">proyectos</a> tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. <br/>Si quieres saber más sobre mis proyectos <a href="/" className="text-secundary hover:underline">¡Puedes enviarme una nota!</a>
                 </p>
-                <p className="text-sm sm:text-base text-center ">
-                  Si tienes alguna pregunta o quieres saber más sobre mis proyectos ¡Puedes enviarme una nota! 
-                </p>
+
         </div>
     </section>
     )

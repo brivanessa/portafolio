@@ -9,7 +9,10 @@ export default {
       colors: {
         // secondary: "#F13024",
         primary: "#97D1D9",
-        secundary: "#000000"
+        secundary: "#000000",
+        tertiary: "#AFADAD",
+        gray: "#F5F5F5"
+
       },
       backgroundImage: {
         explosion: "url('/assets/bg-explosion.png')",
