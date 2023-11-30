@@ -2,7 +2,7 @@ import imageMobile from "../assets/images/bg-mobile.png"
 import imageDesktop from "../assets/images/bg-desktop.png"
 import avatar  from "../assets/images/avatar-image.png"
 
-export const MainArticle = () => {
+export const About = () => {
     return (
     <section className="flex flex-col justify-center">
     
@@ -32,7 +32,7 @@ export const MainArticle = () => {
                 ¿Qué hago?
                 </h2>
                 <p className="text-sm sm:text-base  text-center text-tertiary ">
-                  Desarrollo <a href="/" className="text-secundary hover:underline">proyectos</a> tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. <br/>Si quieres saber más sobre mis proyectos <a href="/" className="text-secundary hover:underline">¡Puedes enviarme una nota!</a>
+                  Desarrollo <a href="/" className="text-secundary hover:bg-primary inline">proyectos</a> tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. <br/>Si quieres saber más sobre mis proyectos <a href="/" className="text-secundary hover:bg-primary inline">¡Puedes enviarme una nota!</a>
                 </p>
 
         </div>

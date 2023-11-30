@@ -1,14 +1,18 @@
 import { Header } from "./components/Header"
-import { MainArticle } from "./components/MainArticle"
+import { About } from "./components/About"
 import { ArticlesContainer } from "./components/ArticlesContainer"
+import { Contact } from "./components/Contact"
+import { Footer } from "./components/Footer"
 
 function App() {
 
   return (
     <>
       <Header/>
-      <MainArticle/>
+      <About/>
       <ArticlesContainer/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
