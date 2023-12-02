@@ -12,8 +12,8 @@ import image10 from "../assets/images/article10.jpg"
 
 export const ArticlesContainer = () => {
   return (
-    <section className="py-5 flex flex-col bg-gray my-12 sm:my-16  sm:px-16">
-        <h2 className="text-xl sm:text-2xl pb-2 sm:pb-3 text-secundary text-center">
+    <section className=" flex flex-col bg-gray py-6 sm:py-8  sm:px-16 scroll-mt-14 dark:bg-blue dark:bg-opacity-80" id="projects">
+        <h2 className="text-xl sm:text-2xl pb-2 sm:pb-3 text-secundary text-center dark:text-primary">
                 Proyectos
         </h2>
         <div className="w-full justify-center flex flex-wrap">

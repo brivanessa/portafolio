@@ -1,24 +1,37 @@
-import theme from "../assets/icons/theme-icon.svg"
-import github from "../assets/icons/github-icon.svg"
-import linkedin from "../assets/icons/linkedin-icon.svg"
-import email from "../assets/icons/email-icon.svg"
+
+import {IconEmail} from "../assets/icons/IconEmail"
+import {IconGithub} from "../assets/icons/IconGithub"
+import {IconLinkedin} from "../assets/icons/IconLinkedin"
+import {IconTheme} from "../assets/icons/IconTheme"
+import {useEffect, useState} from "react"
 
 export const Footer = () => {
+    const [theme, setTheme] = useState("light")
+    useEffect(()=>{
+        if(theme==="dark") {
+            document.querySelector("html").classList.add("dark")
+        } else {
+            document.querySelector("html").classList.remove("dark")
+        }
+    })
+    const handleChangeTheme =() => {
+        setTheme(theme ==="light" ? "dark":"light")
+    }
     return (
-      <footer className="bg-primary flex justify-between p-4 px-8  sm:px-20 w-full ">
-            <div className=" cursor-pointer ">
-                <img className="h-8 lg:h-12" src={theme} alt="menu hamburguesa"/>  
-            </div>  
-            <div className="flex flex-row gap-8">
-                <div className=" cursor-pointer ">
-                    <img className="h-8 lg:h-12" src={github} alt="menu hamburguesa"/>  
-                </div>  
-                <div className=" cursor-pointer ">
-                    <img className="h-8 lg:h-12" src={linkedin} alt="menu hamburguesa"/>  
-                </div>  
-                <div className=" cursor-pointer ">
-                    <img className="h-8 lg:h-12" src={email} alt="menu hamburguesa"/>  
-                </div>  
+      <footer className="bg-primary flex justify-between py-4 px-8  sm:px-20 w-full dark:bg-blue dark:border-primary dark:border-t ">
+            <button className=" cursor-pointer hover:scale-105 " onClick={handleChangeTheme }>
+                <IconTheme/> 
+            </button>  
+            <div className="flex flex-row gap-4 sm:gap-8">
+                <a href="https://github.com/brivanessa" className=" cursor-pointer hover:scale-105 ">
+                    <IconGithub/>
+                </a>  
+                <a href="https://www.linkedin.com/in/vanessaarapa/" className=" cursor-pointer hover:scale-105 ">
+                   <IconLinkedin/>
+                </a>  
+                <a href="mailto:vanessaah.lu@gmail.com" className="cursor-pointer hover:scale-105">
+                    <IconEmail/>
+                </a>  
             </div>
       </footer>
     )
