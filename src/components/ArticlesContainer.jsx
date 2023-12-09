@@ -13,10 +13,10 @@ import image10 from "../assets/images/article10.jpg"
 export const ArticlesContainer = () => {
   return (
     <section className=" flex flex-col bg-gray py-6 sm:py-8 px-2 sm:px-20 scroll-mt-14 dark:bg-blue dark:bg-opacity-80" id="projects">
-        <h2 className="text-xl sm:text-2xl pb-2 sm:pb-3 text-secundary text-center dark:text-primary">
+        <h2 className="text-xl sm:text-2xl pb-4 sm:pb-6 text-secundary text-center dark:text-primary">
                 Proyectos
         </h2>
-        <div className="w-full justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+        <div className="w-full justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
         <Article image={image1} title={"Caesar Cipher"} lenguages={"HTML CSS JS" }/>
         <Article image={image2} title={"Fast Food Take Orders"} lenguages={"HTML CSS JS ReactJS" }/>
         <Article image={image3} title={"Online Store"} lenguages={"HTML CSS JS" }/>
