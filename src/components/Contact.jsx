@@ -31,7 +31,6 @@ export const Contact = () => {
             <button
                  type="submit"
                  className="rounded-lg bg-primary px-16 py-3 hover:scale-105 hover:text-gray hover:shadow-xl dark:hover:bg-gray   dark:text-blue"
-
             >
                 Enviar
             </button>
