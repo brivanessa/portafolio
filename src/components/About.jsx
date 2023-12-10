@@ -13,7 +13,7 @@ export const About = () => {
             <img src={imageMobile} alt="background image" className=" opacity-20 object-cover h-[250px] sm:h-[380px] w-screen" />
           </picture>
           <div className="relative flex items-center justify-center h-[250px] sm:h-[380px] w-screen ">
-              <div className="flex flex-col items-center rounded-lg border w-fit px-5 py-3 border-secundary dark:border-primary dark:text-primary">
+              <div className="flex flex-col items-center rounded-lg border w-fit px-5 py-3 border-blue dark:border-primary dark:text-primary text-blue">
                 <h1 className="text-xl sm:text-2xl">
                   Vanessa A.
                 </h1>
@@ -22,8 +22,8 @@ export const About = () => {
                 </p>
               </div>
           </div>
-          <div className="absolute -bottom-12 sm:-bottom-20 rounded-full w-fit h-fit border-secundary border">
-            <img src={avatar} alt="background image" className=" rounded-full h-24 sm:h-48 w-auto" />
+          <div className="absolute -bottom-12 sm:-bottom-20 rounded-full w-fit h-fit border-blue dark:border-primary border">
+            <img src={avatar} alt="background image" className=" rounded-full h-24 sm:h-48 w-auto dark:border-primary" />
           </div>
          
         </div>
@@ -31,8 +31,8 @@ export const About = () => {
                 <h2 className="text-xl sm:text-2xl pb-2 sm:pb-3 text-primary">
                 ¿Qué hago?
                 </h2>
-                <p className="text-sm sm:text-base  text-center text-tertiary ">
-                  Desarrollo <a href="#projects" className="text-secundary hover:bg-primary inline hover:text-gray hover:pb-1 hover:px-0.5 dark:text-primary hover:pt-0.5  dark:hover:text-blue ">proyectos</a> tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. <br/>Si quieres saber más sobre mis proyectos <a href="#contact" className="text-secundary hover:bg-primary inline hover:text-gray hover:pb-1 hover:px-0.5 hover:pt-0.5 dark:text-primary dark:hover:text-blue">¡Puedes enviarme una nota!</a>
+                <p className="text-sm sm:text-base  text-center text-blue dark:text-white ">
+                  Desarrollo <a href="#projects" className="text-primary hover:bg-primary inline hover:text-blue hover:pb-1 hover:px-0.5  hover:pt-0.5">proyectos</a> tecnológicos y de diseño web. Me gusta programar, averiguar o crear “cosas”, los gatos y tomar café. <br/>Si quieres saber más sobre mis proyectos <a href="#contact" className="text-primary hover:bg-primary inline hover:text-blue hover:pb-1 hover:px-0.5  hover:pt-0.5">¡Puedes enviarme una nota!</a>
                 </p>
 
         </div>

@@ -11,13 +11,13 @@ export const Contact = () => {
                     type="text"
                     name="name"
                     placeholder="Nombre"
-                    className="border rounded-lg py-1 px-2 w-full  dark:bg-blue dark:border-primary "
+                    className="border border-blue rounded-lg py-1 px-2 w-full  dark:bg-blue dark:border-primary "
                 />
                 <input
                     type="text"
                     name="email"
                     placeholder="Email"
-                    className="border rounded-lg  py-1 px-2 w-full  dark:bg-blue dark:border-primary"
+                    className="border rounded-lg border-blue py-1 px-2 w-full  dark:bg-blue dark:border-primary"
                 />
             </div>
             <textarea
@@ -25,12 +25,12 @@ export const Contact = () => {
                 placeholder="Mensaje"
                 id=""
                 rows="5"
-                className="border rounded-lg  py-1 px-2 w-full dark:bg-blue dark:border-primary"
+                className="border rounded-lg  py-1 px-2 w-full border-blue dark:bg-blue dark:border-primary"
             />
 
             <button
                  type="submit"
-                 className="rounded-lg bg-primary px-16 py-3 hover:scale-105 hover:text-gray hover:shadow-xl dark:hover:bg-gray   dark:text-blue"
+                 className="rounded-lg bg-primary px-16 py-3 hover:scale-105 hover:text-white hover:shadow-xl  text-blue"
             >
                 Enviar
             </button>

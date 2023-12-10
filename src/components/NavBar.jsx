@@ -12,7 +12,7 @@ import { useState } from "react";
 // import close from "../assets/icons/xmark-icon.svg "
 export const NavBar = ({menuOptions}) => {
     
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     return (
         <>
         <div className="w-full relative flex flex-col items-end">
@@ -28,7 +28,7 @@ export const NavBar = ({menuOptions}) => {
                 {menuOptions.map( item => 
                 {
                     return <li key={item.name}>
-                            <a href={`#${item.section}`} onClick={()=> {setOpen(!open)}} className=" hover:text-gray text-secundary dark:text-primary dark:hover:text-gray">{item.name}</a>
+                            <a href={`#${item.section}`} onClick={()=> {setOpen(!open)}} className=" hover:text-gray text-blue dark:text-primary dark:hover:text-gray">{item.name}</a>
                     </li>
                 })}
             
