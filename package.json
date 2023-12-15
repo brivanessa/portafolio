@@ -1,5 +1,5 @@
 {
-  "homempage": "https://brivanessa.github.io/portafolio/",
+  "homepage": "https://brivanessa.github.io/portafolio",
   "name": "portafolio_va",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
